@@ -1,0 +1,15 @@
+.card {
+  padding: 0.5rem;
+  background-color: transparent;
+  border: 1px solid $primary;
+  color: $primary;
+  font-size: 1.2rem;
+  font-family: "VT323";
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.card-img {
+  width: 100%;
+}

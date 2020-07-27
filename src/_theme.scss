@@ -1,0 +1,6 @@
+@use "sass:color";
+
+$primary: #ff79c6;
+$secondary: white;
+
+$primary-active: color.adjust($primary, $lightness: 50%);
