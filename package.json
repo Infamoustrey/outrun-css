@@ -13,10 +13,10 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "laravel-mix": "^5.0.4",
-    "resolve-url-loader": "^3.1.0",
+    "laravel-mix": "^5.0.9",
+    "resolve-url-loader": "^3.1.2",
     "sass": "^1.26.8",
     "sass-loader": "^8.0.2"
   },

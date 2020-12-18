@@ -1,7 +1,6 @@
 .button {
   padding: 0.25rem 1rem;
   background-color: transparent;
-  border: 1px solid $primary;
   color: $primary;
   font-size: 1.2rem;
   font-family: "VT323";
@@ -9,6 +8,21 @@
 }
 
 .button:hover {
+  color: $primary-active;
+  cursor: pointer;
+}
+
+.button.button-outline {
+  padding: 0.25rem 1rem;
+  background-color: transparent;
+  border: 1px solid $primary;
+  color: $primary;
+  font-size: 1.2rem;
+  font-family: "VT323";
+  transition: color 100ms, border-color 100ms;
+}
+
+.button.button-outline:hover {
   color: $primary-active;
   border-color: $primary-active;
   cursor: pointer;
