@@ -4,7 +4,8 @@
   color: $primary;
   font-size: 1.2rem;
   font-family: "VT323";
-  transition: color 100ms, border-color 100ms;
+  transition: color 100ms;
+  border: 0px;
 }
 
 .button:hover {
